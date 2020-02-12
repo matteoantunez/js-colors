@@ -58,9 +58,18 @@
     <a href="https://profcase.github.io/js-colors/">Demo</a>
     &#9670;
     <a href="https://github.com/profcase/js-colors">Source</a>
+    
+    <button id = "myBtn">Here 'ya Go</button>
+    <p id = "demo"></p>
   </footer>
+  
+  <script src="main.js">
+    document.getElementById("myBtn").addEventListener("click", hello);
 
-  <script src="main.js"></script>
+    function hello(){
+      document.getElementById("demo").innerHTML = "hello!"
+    }
+  </script>
 
 </body>
 
